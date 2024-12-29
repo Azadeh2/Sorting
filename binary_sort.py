@@ -1,7 +1,7 @@
 import math
 
 def binary_sort(my_numbers):
-
+    """ binary sort halves the search inerval to find the correct position"""
     if not my_numbers or len(my_numbers) == 1: return my_numbers
     
     for current_ind in range(len(my_numbers)):
